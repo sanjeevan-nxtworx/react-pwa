@@ -17,7 +17,7 @@ function MultiChildForm() {
       message: message,
     };
     setFormData(newState);
-  }, []);
+  }, [formData.email, name, message]);
 
   const handleChange = (event) => {
     const { name, value } = event.target;

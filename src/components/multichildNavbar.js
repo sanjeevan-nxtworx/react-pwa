@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 
 function MultiChildNavbar() {
-  const [name, setName] = useState("Mahesh");
+  const [name] = useState("Mahesh");
   return (
     <div>
       <ul>
