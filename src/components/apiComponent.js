@@ -30,7 +30,7 @@ function ApiComponent() {
     } else {
       setFilteredAlbumData(null);
     }
-  }, [albumData]);
+  }, [albumData, userID]);
 
   function getAPI() {
     fetch("https://jsonplaceholder.typicode.com/albums")
